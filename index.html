@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Assignments</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <h1 style="color: rgb(21, 228, 114); text-align: center;padding: 10px 0px;">Chess Board using jquery</h1>
+    <div class="container">
+        
+        <div id="chessboard">
+            
+        </div>	
+    </div>
+  
+    <h1 style="color: rgb(21, 228, 114); text-align: center;padding: 10px 0px;">calculator using jquery</h1>
+    <div class="container">
+        <div class="calculator">
+            <div class="input" id="input"></div>
+            <div class="buttons">
+              <div class="operators">
+                <div>+</div>
+                <div>-</div>
+                <div>*</div>
+                <div>/</div>
+              </div>
+              <div class="leftPanel">
+                <div class="numbers">
+                  <div>7</div>
+                  <div>8</div>
+                  <div>9</div>
+                </div>
+                <div class="numbers">
+                  <div>4</div>
+                  <div>5</div>
+                  <div>6</div>
+                </div>
+                <div class="numbers">
+                  <div>1</div>
+                  <div>2</div>
+                  <div>3</div>
+                </div>
+                <div class="numbers">
+                  <div>0</div>
+                  <div>.</div>
+                  <div id="clear">C</div>
+                </div>
+              </div>
+              <div class="equal" id="result">=</div>
+            </div>
+          </div>
+    </div>
+
+    <h1 style="color: rgb(21, 228, 114); text-align: center;padding: 10px 0px;">Find Min & Max Values using jquery</h1>
+    <div class="array">
+        <p style="text-align: center; font-weight: bold;">Default array: [10,50,5,8,0,100,35]</p>
+        <p style="text-align: center; font-weight: bold;">Max Value: <span id="max"></span></p>
+        <p style="text-align: center; font-weight: bold;">Min Value: <span id="min"></span></p>
+        <button style="margin:0 auto; display: block;" ;  onclick="maxminvalue()">Find Max & Min values</button>
+        </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
